@@ -1,4 +1,63 @@
- /* * {
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background:linear-gradient(45deg,#232b80,#20bdff);
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    transform-style: preserve-3d;
+    transition: all ls ease-in-out;
+}
+.class{
+    background: linear-gradient(#ffffff27,#ffffff28);
+    border-radius: inherit;
+    position: absolute;
+}
+.circle:nth-child(1){
+    inset: 25px;
+}
+.circle:nth-child(2){
+    inset: 50px;
+}
+.circle:nth-child(3){
+    inset: 75px;
+}
+.circle:nth-child(4){
+    inset: 100px;
+}
+.circle:nth-child(5){
+    inset: 125px;
+}
+.card:hover{
+    transform: rotate3d(1,1,0,60deg);
+}
+.circle :nth-child(1){
+    transform: translate3d(0,0,30px);
+}
+.circle :nth-child(2){
+    transform: translate3d(0,0,60px);
+}
+.circle :nth-child(3){
+    transform: translate3d(0,0,90px);
+}
+.circle :nth-child(4){
+    transform: translate3d(0,0,120px);
+}
+.circle :nth-child(5){
+    transform: translate3d(0,0,150px);
+} */
+/* * {
  font-family: Arial, Verdana, sans-serif;} */
 /* *{
     background-color: orangered;
@@ -92,11 +151,20 @@ p#intro {
 font-size: 100%;}
 p {
  font-size: 75%;} */
-body {
+/* body {
 font-family: Arial, Verdana, sans-serif;
 color: #665544;
 padding: 10px;} 
 .page {
 border: 1px solid #665544;
 background-color: #efefef; 
-padding: inherit;} 
+padding: inherit;}  */
+/* .box {
+width: 200px;
+height: 150px;
+border: 2px solid #333;
+background-color: #fafafa;
+padding: 20px;
+margin: 20px auto;
+box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+} */
